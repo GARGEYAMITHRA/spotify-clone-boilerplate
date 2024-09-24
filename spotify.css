@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial,  sans-serif;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+header h1{
+    font-size: 24px;
+}
+header input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+header .user-profile {
+    display: flex;
+    align-items: center;
+}
+header .uer-profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+nav{
+    background-color: grey;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a{
+    text-decoration: name;
+    color: white;
+}
+main{
+    padding:20px;
+    display:inline-block;
+    background-color: black;
+    padding: 0%;
+}
+.content{
+    max-width: 1200px;
+    
+    
+
+}
+.featured{
+ margin-bottom: 20px;
+}
+.playlist-card{
+
+}
+.recommendations{
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: black;
+    padding: 0%;
+
+}
+.showcard{
+
+}
+.player{
+
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
